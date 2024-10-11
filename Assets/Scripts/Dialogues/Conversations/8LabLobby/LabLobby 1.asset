@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: LabLobby 1
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 93291a99dca974d41a6f6a4850fba02b, type: 2}
+    sound: {fileID: 8300000, guid: 5e2e69bf5b720c34db8b4941387c1be2, type: 3}
+    dialogue: ...
+  - character: {fileID: 11400000, guid: d93bae013adbfb2449195624865c044e, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: "\xA1HOLAAA!, \xBFC\xF3mo va mi agente favorito?"
+  - character: {fileID: 11400000, guid: 826aa9607a17b8f4ea571f026a3ae203, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "Soy el \xFAnico agente..."
+  - character: {fileID: 11400000, guid: 85f60bf88bcaac54096d2c35379c0ba5, type: 2}
+    sound: {fileID: 8300000, guid: fc5df423faad8844fb7238b70964fc2a, type: 3}
+    dialogue: "S\xED, bueno ..."
+  - character: {fileID: 11400000, guid: d93bae013adbfb2449195624865c044e, type: 2}
+    sound: {fileID: 8300000, guid: fc5df423faad8844fb7238b70964fc2a, type: 3}
+    dialogue: "Ya est\xE1s m\xE1s cerca de tu objetivo pero ten cuidado, no se de
+      qu\xE9 es capaz Guido (Aunque parece que no se da cuenta de que nos hemos infiltrado)."
+  - character: {fileID: 11400000, guid: ec3cbbf3269dae047b57ca1a46c3e50f, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "Tranquila, hasta ahora me ha ido bien, s\xF3lo un poco m\xE1s y misi\xF3n
+      cumplida."
+  - character: {fileID: 11400000, guid: 85f60bf88bcaac54096d2c35379c0ba5, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: "Parece que la sala de operaciones de Guido se encuentra en lo m\xE1s
+      profundo de su laboratorio, debes averiguar la forma de abrirte paso hasta
+      el,\xA1BUENA SUERTE!!"
+  question: {fileID: 0}

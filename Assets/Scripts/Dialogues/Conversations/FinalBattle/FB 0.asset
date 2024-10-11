@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: FB 0
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 90ab82b05068af44db3c3a6e8129fda2, type: 2}
+    sound: {fileID: 8300000, guid: b70932fdd5229e149a37c142d967da42, type: 3}
+    dialogue: "Generando m\xFAsica de batalla..."
+  - character: {fileID: 11400000, guid: 2032eb4b1be69fd439c571f9f822cf9e, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "Parece que todo acaba aqu\xED..."
+  - character: {fileID: 11400000, guid: 93291a99dca974d41a6f6a4850fba02b, type: 2}
+    sound: {fileID: 8300000, guid: 5e2e69bf5b720c34db8b4941387c1be2, type: 3}
+    dialogue: '*RIIING RIIIING*'
+  - character: {fileID: 11400000, guid: d93bae013adbfb2449195624865c044e, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: "\xA1HOOLAAA!"
+  - character: {fileID: 11400000, guid: 85f60bf88bcaac54096d2c35379c0ba5, type: 2}
+    sound: {fileID: 8300000, guid: fc5df423faad8844fb7238b70964fc2a, type: 3}
+    dialogue: Parece que el proyecto de Guido se ha descontrolado.
+  - character: {fileID: 11400000, guid: 4592cccf3a77d9542af537f1827066af, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: Eso parece ...
+  - character: {fileID: 11400000, guid: 826aa9607a17b8f4ea571f026a3ae203, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "No s\xE9 muy bien c\xF3mo afrontar este reto"
+  - character: {fileID: 11400000, guid: d93bae013adbfb2449195624865c044e, type: 2}
+    sound: {fileID: 8300000, guid: fc5df423faad8844fb7238b70964fc2a, type: 3}
+    dialogue: Tranquilo ,tengo un plan, basta con confundir a la IA. Asegurate de
+      atacar ofreciendo la respuesta <color=red>incorrecta</color>.
+  - character: {fileID: 11400000, guid: 85f60bf88bcaac54096d2c35379c0ba5, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: "\xA1BUENA SUERTE!"
+  - character: {fileID: 11400000, guid: 90ab82b05068af44db3c3a6e8129fda2, type: 2}
+    sound: {fileID: 8300000, guid: 2990f20ccb525ef4398b334c34bed7ae, type: 3}
+    dialogue: "M\xFAsica generada, empezando el exterminio..."
+  question: {fileID: 0}

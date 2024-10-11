@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 1Carnival
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 2d1fad8a8e345e747bd85bd6992c27c5, type: 3}
+    dialogue: "\xA1BIENVENIDO FORASTERO!"
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 7de6628756864bb45ae02bab85922ffb, type: 3}
+    dialogue: "\xBFQu\xE9 necesitas?"
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: "\xBFVideojuegos de Wii totalmente legales?, \xBFquiz\xE1s tarjetas
+      R4?, tambi\xE9n tengo Wii U pero de esas no he vendido ninguna ..."
+  - character: {fileID: 11400000, guid: 5165a1c9c8bdbf14a8454220da9558e8, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "Vaya, esta mansi\xF3n no deja de sorprenderme..."
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: a8446dc3e8966fe488f33229a93eaaaf, type: 3}
+    dialogue: "Y TAANTO, pero es un TFG, el presupuesto no da para muchas ideas m\xE1s
+      ..."
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: ad89b9b715b45ed47a31bad80e386238, type: 3}
+    dialogue: "En fin, \xBFhas venido a comprar o no?"
+  - character: {fileID: 11400000, guid: 5c810adf6428f86408ea0c8cdaaf58bd, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: Dices cosas muy raras pero ya que lo preguntas... Necesito uno de esos
+      uniformes que llevan los soldados de Guido para poder colarme en la biblioteca.
+  - character: {fileID: 11400000, guid: 427e39ebc0e3f794a98ee2fc9953b547, type: 2}
+    sound: {fileID: 8300000, guid: a8446dc3e8966fe488f33229a93eaaaf, type: 3}
+    dialogue: "\xBFTe refieres a uno de estos?"
+  - character: {fileID: 11400000, guid: 5c810adf6428f86408ea0c8cdaaf58bd, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "S\xED, es justo lo que necesito, \xBFCu\xE1nto cuesta?"
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: JAJAJAJA
+  - character: {fileID: 11400000, guid: 5165a1c9c8bdbf14a8454220da9558e8, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "\xBFDe qu\xE9 se r\xEDe?"
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: a8446dc3e8966fe488f33229a93eaaaf, type: 3}
+    dialogue: "\xBFCrees que se compra con dinero?"
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: "En este negocio todo se consigue como premio en mi maravilloso minijuego
+      clich\xE9 de disparar a las dianas."
+  - character: {fileID: 11400000, guid: 5165a1c9c8bdbf14a8454220da9558e8, type: 2}
+    sound: {fileID: 8300000, guid: 59194299fc8eeb946a716c1375e1eef9, type: 3}
+    dialogue: No tengo tiempo para esto...
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: "Bueno que pena, supongo que tendr\xE1s que buscar otra forma, al fin
+      y al cabo no das la talla para conseguir el premio..."
+  - character: {fileID: 11400000, guid: 5c810adf6428f86408ea0c8cdaaf58bd, type: 2}
+    sound: {fileID: 8300000, guid: edbc7d5ea839f9047a559d61d5134dd0, type: 3}
+    dialogue: Retira eso...
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: "Lo retirar\xE9 cuando hayas ganado el premio."
+  - character: {fileID: 11400000, guid: 5165a1c9c8bdbf14a8454220da9558e8, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "De acuerdo, participar\xE9."
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: a8446dc3e8966fe488f33229a93eaaaf, type: 3}
+    dialogue: "\xA1ESTUPENDO!, pasa por el mostrador y te explico los detalles."
+  question: {fileID: 0}

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 3Carnival
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 1
+  dialogues:
+  - character: {fileID: 11400000, guid: eb1a0d006ebfb1249bdbdfacc22b95d6, type: 2}
+    sound: {fileID: 8300000, guid: f60859c8bedfe3e4fa6d04f4df2d8267, type: 3}
+    dialogue: "\xBFTienes Schoko-Bons?"
+  - character: {fileID: 11400000, guid: d5d626b6a879ff448954743461d8b749, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "\xBFSchoko qu\xE9?"
+  - character: {fileID: 11400000, guid: f12c1c380f294654d854715490f80b0f, type: 2}
+    sound: {fileID: 8300000, guid: 039ff8b36b7467a49aa4529c99e5848d, type: 3}
+    dialogue: "Nada, era una censura de algo que sol\xEDa decir en una de mis aventuras.
+      Me llamo Yeisi. Por cierto dicen que por esta mansi\xF3n existe una caja fuerte
+      con combinaci\xF3n."
+  - character: {fileID: 11400000, guid: d5d626b6a879ff448954743461d8b749, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "\xBFEn serio?"
+  - character: {fileID: 11400000, guid: eb1a0d006ebfb1249bdbdfacc22b95d6, type: 2}
+    sound: {fileID: 8300000, guid: ba8a13efa25209d42808428e5c568b0c, type: 3}
+    dialogue: "S\xED, me di cuenta de un mensaje cifrado al intentar guardar partida
+      en la m\xE1quina de escribir del vest\xEDbulo, pero no termin\xE9 de descifrarlo,
+      tal vez puedas encontrar la combinaci\xF3n."
+  - character: {fileID: 11400000, guid: 16c3711b717dc3b4ba314793271b05e4, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "Puede que lo intente si tengo tiempo. Gracias por la informaci\xF3n."
+  question: {fileID: 0}

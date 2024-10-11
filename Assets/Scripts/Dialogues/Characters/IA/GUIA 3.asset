@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffe5872270abfc448321952a97595ad, type: 3}
+  m_Name: GUIA 3
+  m_EditorClassIdentifier: 
+  characterName: GUIA
+  image: {fileID: 21300000, guid: 1e84edc7481137148a18ee7928abc87b, type: 3}
+  image2: {fileID: 21300000, guid: 1e84edc7481137148a18ee7928abc87b, type: 3}
+  image3: {fileID: 21300000, guid: 05bd6204a2810594796267f06ab15919, type: 3}
