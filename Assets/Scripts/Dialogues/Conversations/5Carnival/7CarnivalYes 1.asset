@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 7CarnivalYes 1
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 5c810adf6428f86408ea0c8cdaaf58bd, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: De acuerdo, empecemos...
+  - character: {fileID: 11400000, guid: 22b8447dced356d4ca104cd152d46f7a, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: "\xA1ESTUPENDO!, coge esa pistola claramente de pl\xE1stico y empezamos..."
+  question: {fileID: 0}

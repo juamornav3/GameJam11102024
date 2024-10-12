@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 2Corridor
+  m_EditorClassIdentifier: 
+  unlocked: 0
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 2032eb4b1be69fd439c571f9f822cf9e, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: Bien, hora de ponerme el uniforme...
+  - character: {fileID: 11400000, guid: 1fac104956dadb2439e174d5403e8ac0, type: 2}
+    sound: {fileID: 8300000, guid: 1e3e203c1bb9d6043bda97dc516de7c5, type: 3}
+    dialogue: Linux, parece que viene alguien.
+  - character: {fileID: 11400000, guid: 575b6c7d6d47bd944aacd2953648639d, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: Buenas, soy el nuevo, Guido me ha pedido que os cubra el turno de guardia,
+      os necesitan en el laboratorio ...
+  - character: {fileID: 11400000, guid: e7c589df9aa0d314db31574875f1f70e, type: 2}
+    sound: {fileID: 8300000, guid: 2b93f56f8f52511419243d3c47615e53, type: 3}
+    dialogue: No recuerdo que haya entrado un nuevo miembro ...
+  - character: {fileID: 11400000, guid: 575b6c7d6d47bd944aacd2953648639d, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "Ya sabe como es Guido, act\xFAa sin avisar y adem\xE1s, si no me hubiese
+      contratado c\xF3mo es que llevo el uniforme (me van a pillar)..."
+  - character: {fileID: 11400000, guid: 5cc4ea54a7f161143b227a93a26d933a, type: 2}
+    sound: {fileID: 8300000, guid: 1e3e203c1bb9d6043bda97dc516de7c5, type: 3}
+    dialogue: "Tiene raz\xF3n Linux, Guido se encarga de repartir los uniformes,
+      adem\xE1s me estoy aburriendo de esperar en este pasillo."
+  - character: {fileID: 11400000, guid: 5cc4ea54a7f161143b227a93a26d933a, type: 2}
+    sound: {fileID: 8300000, guid: 1e3e203c1bb9d6043bda97dc516de7c5, type: 3}
+    dialogue: "\xBFPor qu\xE9 no vamos al laboratorio a probar ese maravilloso sandwich
+      con el que est\xE1 experimentando Guido?"
+  - character: {fileID: 11400000, guid: e7c589df9aa0d314db31574875f1f70e, type: 2}
+    sound: {fileID: 8300000, guid: 3f332522c2def49468f0aff061882897, type: 3}
+    dialogue: Torvald, tu siempre pensando en comida ...
+  - character: {fileID: 11400000, guid: e7c589df9aa0d314db31574875f1f70e, type: 2}
+    sound: {fileID: 8300000, guid: bef66ef2b00211740ba95e25bee64dbf, type: 3}
+    dialogue: "Est\xE1 bien, t\xFA, el nuevo, te dejamos al cargo mientras vamos
+      a por ese sandwich."
+  - character: {fileID: 11400000, guid: 575b6c7d6d47bd944aacd2953648639d, type: 2}
+    sound: {fileID: 8300000, guid: 0f922aa733f2bb443915e86110dd4a7b, type: 3}
+    dialogue: "\xA1ESTUPENDO!, no os defraudar\xE9."
+  question: {fileID: 0}

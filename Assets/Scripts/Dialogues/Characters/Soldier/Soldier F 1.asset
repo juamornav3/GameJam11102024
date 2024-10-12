@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffe5872270abfc448321952a97595ad, type: 3}
+  m_Name: Soldier F 1
+  m_EditorClassIdentifier: 
+  characterName: LINUX
+  image: {fileID: -1268615242, guid: 41e7b942a8c14f0478736ee60d1a26bf, type: 3}
+  image2: {fileID: -103238830, guid: 5de4a81b0e1bd75489f865a4f009e550, type: 3}
+  image3: {fileID: 21300000, guid: 1e84edc7481137148a18ee7928abc87b, type: 3}

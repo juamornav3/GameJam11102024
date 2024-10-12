@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 0Carnival
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 1
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 3afdf8a2f49e10f448ec045d79d42fa1, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "Que habitaci\xF3n m\xE1s oscura, \xBFme pregunto d\xF3nde estar\xE1
+      el interruptor?"
+  - character: {fileID: 11400000, guid: 144ed33da705d3a419217cd46a755912, type: 2}
+    sound: {fileID: 8300000, guid: b62e9ae94f918074b99674e470a8124e, type: 3}
+    dialogue: ...
+  - character: {fileID: 11400000, guid: 52b701b36957ce54daa99c630ad29812, type: 2}
+    sound: {fileID: 8300000, guid: 7ef2457aaa7e5d246a83768afe1f38ab, type: 3}
+    dialogue: "\xBFPuede ser este el final de mi misi\xF3n?"
+  - character: {fileID: 11400000, guid: 144ed33da705d3a419217cd46a755912, type: 2}
+    sound: {fileID: 8300000, guid: 1a6d546312b1dae4a825f63cca4da0a1, type: 3}
+    dialogue: Jejeje.
+  - character: {fileID: 11400000, guid: 144ed33da705d3a419217cd46a755912, type: 2}
+    sound: {fileID: 8300000, guid: a8446dc3e8966fe488f33229a93eaaaf, type: 3}
+    dialogue: "Tranquilo s\xF3lo era una peque\xF1a broma, espera que enciendo la
+      luz..."
+  question: {fileID: 0}

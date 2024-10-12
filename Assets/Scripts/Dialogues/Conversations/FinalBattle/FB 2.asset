@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: FB 2
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 90ab82b05068af44db3c3a6e8129fda2, type: 2}
+    sound: {fileID: 0}
+    dialogue: Calculando pregunta...
+  question: {fileID: 11400000, guid: 9a12319b6f9d75346b675e803740ea55, type: 2}

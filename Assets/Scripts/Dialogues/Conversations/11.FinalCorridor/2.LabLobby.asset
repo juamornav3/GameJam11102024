@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 2.LabLobby
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: e7c589df9aa0d314db31574875f1f70e, type: 2}
+    sound: {fileID: 8300000, guid: 3f332522c2def49468f0aff061882897, type: 3}
+    dialogue: Y lo peor de todo no es eso...
+  - character: {fileID: 11400000, guid: 5cc4ea54a7f161143b227a93a26d933a, type: 2}
+    sound: {fileID: 8300000, guid: 1e3e203c1bb9d6043bda97dc516de7c5, type: 3}
+    dialogue: "S\xED, con la tragedia se manch\xF3 de salsa el panel de control de
+      esta puerta y necesitamos repararla para abrirla."
+  - character: {fileID: 11400000, guid: 575b6c7d6d47bd944aacd2953648639d, type: 2}
+    sound: {fileID: 8300000, guid: 59194299fc8eeb946a716c1375e1eef9, type: 3}
+    dialogue: "Parece un problema serio (sobre todo para mi misi\xF3n)."
+  - character: {fileID: 11400000, guid: e7c589df9aa0d314db31574875f1f70e, type: 2}
+    sound: {fileID: 8300000, guid: bef66ef2b00211740ba95e25bee64dbf, type: 3}
+    dialogue: "\xBFCrees que puedes echarle un vistazo?"
+  - character: {fileID: 11400000, guid: 575b6c7d6d47bd944aacd2953648639d, type: 2}
+    sound: {fileID: 8300000, guid: 23c5a4c6354d5d34b810241af5cf766d, type: 3}
+    dialogue: "Tal vez pueda arreglarlo (no me queda otra opci\xF3n para seguir avanzando)."
+  question: {fileID: 0}
