@@ -2510,8 +2510,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -6}
-  m_SizeDelta: {x: 1026.935, y: 167.779}
+  m_AnchoredPosition: {x: -6.873, y: 0.0000095367}
+  m_SizeDelta: {x: 1013.19, y: 203.124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1597764894
 MonoBehaviour:
@@ -2533,11 +2533,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Objetivo: Llegar hasta la secretar\xEDa\n\nPara moverte, utiliza WASD
-    o las flechas direccionales"
+  m_text: 'Objetivo: Llegar hasta el conserje
+
+
+    Para moverte, utiliza WASD o
+    las flechas direccionales'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: af17118b57d92e449abb19b7bff41798, type: 2}
+  m_sharedMaterial: {fileID: 5296315596738064822, guid: af17118b57d92e449abb19b7bff41798, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2568,7 +2571,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3600,8 +3603,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 0}
-  m_SizeDelta: {x: 1079.911, y: 200.06299}
+  m_AnchoredPosition: {x: 0.000030518, y: 0.0000038146973}
+  m_SizeDelta: {x: 1079.911, y: 274.679}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1996829854
 MonoBehaviour:
