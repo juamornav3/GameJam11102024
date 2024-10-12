@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ad6f35823594f4e804b8fe3f75c1e3, type: 3}
+  m_Name: PruebaQuestion
+  m_EditorClassIdentifier: 
+  question: Probando
+  choices:
+  - choice: Probando 2
+    result: {fileID: 11400000, guid: 57d8bcff3e83a2c47b3d01bb4ed45f25, type: 2}
+  - choice: Probando 2
+    result: {fileID: 11400000, guid: 57d8bcff3e83a2c47b3d01bb4ed45f25, type: 2}

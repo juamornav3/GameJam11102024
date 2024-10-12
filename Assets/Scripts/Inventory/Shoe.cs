@@ -9,20 +9,8 @@ public class Shoe : MonoBehaviour
     private void Awake()
     {
         shoeCanvas = GameObject.Find("ShoeCanvas");
-        inventory = GameObject.Find("Scripts").GetComponent(typeof(Inventory)) as Inventory;
     }
 
-    void Update()
-    {
-        if (!inventory.GetComponent<Inventory>().inventoryEnabled)
-        {
-            shoeCanvas.GetComponent<Canvas>().sortingOrder = 2;
-        }
-        else
-        {
-            shoeCanvas.GetComponent<Canvas>().sortingOrder = 0;
-        }
-    }
 
     public void ActivateArrows()
     {

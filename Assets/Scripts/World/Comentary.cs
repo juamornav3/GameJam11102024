@@ -9,7 +9,6 @@ public class Comentary : MonoBehaviour
     CursorManager cursorManager;
     GameObject commentary;
     TextMeshProUGUI informativeText;
-    Inventory inventory;
     private bool commentaryEnabled;
     private bool isMouseOver = false;  
     public string currentCommentary;
@@ -21,7 +20,6 @@ public class Comentary : MonoBehaviour
     {
         informativeText = GameObject.Find("InformativeText").GetComponent<TextMeshProUGUI>();
         cursorManager = GameObject.Find("Scripts").GetComponent<CursorManager>();
-        inventory = GameObject.Find("Scripts").GetComponent<Inventory>();
         commentary = GameObject.Find("CommentaryCanvas");
         transition = GameObject.Find("Transition").GetComponent(typeof(SceneController)) as SceneController;
     }
@@ -33,7 +31,7 @@ public class Comentary : MonoBehaviour
 
     private void Update()
     {
-        if (!inventory.GetComponent<Inventory>().inventoryEnabled && !transition.GetComponent<SceneController>().itsChanging && !DialogueManager.instance.isShowed)
+        if ( !transition.GetComponent<SceneController>().itsChanging && !DialogueManager.instance.isShowed)
         {
             if (Input.GetMouseButtonDown(0) && commentaryEnabled && !isMouseOver)
             {
@@ -50,7 +48,7 @@ public class Comentary : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!inventory.GetComponent<Inventory>().inventoryEnabled && !transition.GetComponent<SceneController>().itsChanging && !DialogueManager.instance.isShowed)
+        if ( !transition.GetComponent<SceneController>().itsChanging && !DialogueManager.instance.isShowed)
         {
             if (commentaryEnabled)
             {
