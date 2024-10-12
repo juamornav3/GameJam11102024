@@ -2324,9 +2324,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conversations:
-  - {fileID: 11400000, guid: c7bce699e969de64ab8918f59d981d8d, type: 2}
+  - {fileID: 11400000, guid: 6a093f92e305fb3499ea16aa6998f02a, type: 2}
   conversationPersistanceManagers:
-  - {fileID: 11400000, guid: 6addc99bf80f9c54e8200b1762e3f3fc, type: 2}
+  - {fileID: 11400000, guid: e9d798a8f504d344ba23f7f96d36dd50, type: 2}
   conversationIndex: 0
   dialLocalIn: 0
 --- !u!1 &1728905880

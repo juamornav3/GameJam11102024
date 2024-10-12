@@ -12,6 +12,7 @@ public class FirstSpeaker : MonoBehaviour
        if(speaker != null && speaker.conversationIndex<speaker.conversations.Count)
         {
             speaker.Conver();
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
         } 
     }
 }
