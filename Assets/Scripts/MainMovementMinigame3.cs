@@ -1,10 +1,11 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEditor.ShaderGraph.Internal;
-using TMPro;
+using UnityEditor;
+using System;
 
 
-public class MainMovement : MonoBehaviour
+public class MainMovementMinigame2 : MonoBehaviour
 {
     public float speed = 5f;
     public Camera mainCamera;
@@ -17,7 +18,7 @@ public class MainMovement : MonoBehaviour
     private float halfHeight =0.6f;
     private Vector2 maxBounds;
     private Vector2 minBounds;
-    private bool canMove = false;
+    
 
 
     // Start is called before the first frame update
@@ -38,31 +39,30 @@ public class MainMovement : MonoBehaviour
         halfHeight = boxCollider.bounds.extents.y;
 
         instructionPanel.gameObject.SetActive(true);
-
      }
 
     // Update is called once per frame
     void Update()
     {
+        movementDirection.x = Input.GetAxis("Horizontal");
+        movementDirection.y = Input.GetAxis("Vertical");
 
-        if (!canMove && Input.anyKeyDown)
+        if (movementDirection != Vector2.zero)
         {
-            instructionPanel.gameObject.SetActive(false);
-            canMove = true;
+            float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
+            rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
         }
 
-        if (canMove)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            movementDirection.x = Input.GetAxis("Horizontal");
-            movementDirection.y = Input.GetAxis("Vertical");
-
-            if (movementDirection != Vector2.zero)
-            {
-                float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
-                rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
-            }
+            Interact(); 
         }
 
+    }
+
+    private void Interact()
+    {
+        Debug.Log("Interacting with the environment");
     }
 
     void FixedUpdate()
@@ -98,4 +98,6 @@ public class MainMovement : MonoBehaviour
             LoadNextScene();
         }
     }
+
+    
 }
