@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: "S\xEDTuto"
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 1
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 98ebbc9c6dd45d6469de52dc3b863b26, type: 2}
+    sound: {fileID: 0}
+    dialogue: "S\xED por favor, hace tiempo que no paso por aqu\xED."
+  - character: {fileID: 11400000, guid: 5a265ae3c1bf6d240b139c553f63c356, type: 2}
+    sound: {fileID: 0}
+    dialogue: Vaya no pensaba que alguien quisiera escucharme :D.
+  - character: {fileID: 11400000, guid: 5a265ae3c1bf6d240b139c553f63c356, type: 2}
+    sound: {fileID: 0}
+    dialogue: Bueno en realidad no hay mucho que explicar...
+  - character: {fileID: 11400000, guid: 5a265ae3c1bf6d240b139c553f63c356, type: 2}
+    sound: {fileID: 0}
+    dialogue: Primero, puedes interactuar con algunos elementos del entorno.
+  - character: {fileID: 11400000, guid: e079eaa02f3436c4089f76e9b088d9da, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Acerca tu puntero hasta ver como se vuelve rojo y pulsa el bot\xF3n
+      izquierdo del rat\xF3n para interactuar..."
+  - character: {fileID: 11400000, guid: 96f8de48bd133ed43a95ebfb17015bc2, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Tambi\xE9n puedes moverte a diferentes lugares utilizando el icono
+      con forma de zapato..."
+  - character: {fileID: 11400000, guid: b84e6624d2309ab4b8c194acb8a3126f, type: 2}
+    sound: {fileID: 0}
+    dialogue: "\xBFPero qu\xE9 dices de rat\xF3n?, no te entiendo..."
+  - character: {fileID: 11400000, guid: 98ebbc9c6dd45d6469de52dc3b863b26, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Tranquilo chico, el jugador que te controla sabr\xE1 que hacer."
+  - character: {fileID: 11400000, guid: 6d1dfc9b79414604da429e14e0dc126f, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Ju... juga... \xA1\xBFQU\xC9?!"
+  question: {fileID: 0}
