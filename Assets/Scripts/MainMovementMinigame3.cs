@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEditor.ShaderGraph.Internal;
 using UnityEditor;
 using System;
+using UnityEngine.UIElements;
 
 
 public class MainMovementMinigame2 : MonoBehaviour
@@ -19,6 +20,8 @@ public class MainMovementMinigame2 : MonoBehaviour
     private Vector2 maxBounds;
     private Vector2 minBounds;
     private bool canMove = false;
+    private bool isColliderInFront = false;
+    private RaycastHit2D hit;
     
 
 
@@ -54,9 +57,11 @@ public class MainMovementMinigame2 : MonoBehaviour
             {
                 float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
                 rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
+            
+                DetectCollidersInFront();
             }
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (isColliderInFront && Input.GetKeyDown(KeyCode.Space))
             {
                 Interact(); 
             }
@@ -71,7 +76,12 @@ public class MainMovementMinigame2 : MonoBehaviour
 
     private void Interact()
     {
-        Debug.Log("Interacting with the environment");
+        if (hit.collider != null)
+        {
+            TableClerk tableClerk = hit.collider.gameObject.GetComponent<TableClerk>();
+            Debug.Log("Interacting with the table" + tableClerk.numTable);
+        }
+        
     }
 
     void FixedUpdate()
@@ -108,5 +118,18 @@ public class MainMovementMinigame2 : MonoBehaviour
         }
     }
 
+    void DetectCollidersInFront()
+    {
+        hit = Physics2D.Raycast(rb.position, movementDirection, 1f);
+        if (hit.collider != null)
+        {
+            isColliderInFront = true;
+        }
+        else
+        {
+            isColliderInFront = false;
+        }
+
+    }
     
 }
