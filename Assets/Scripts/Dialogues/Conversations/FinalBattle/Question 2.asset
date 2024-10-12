@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ad6f35823594f4e804b8fe3f75c1e3, type: 3}
+  m_Name: Question 2
+  m_EditorClassIdentifier: 
+  question: "\xBFCu\xE1l de los siguientes podr\xEDa ser un resultado correcto de
+    evaluar la siguiente expresi\xF3n?:  resultado = 2*a"
+  choices:
+  - choice: "Si \u201Ca\u201D es de tipo int, y \u201Ca = 2\u201D, el resultado es
+      4"
+    result: {fileID: 11400000, guid: aae2105fe2a1ab8499f5db07ea2d63be, type: 2}
+  - choice: "Si \u201Ca\u201D es de tipo string, y \u201Ca=\u201DA\u201D\u201D, el
+      resultado es \u201CAA\u201D"
+    result: {fileID: 11400000, guid: aae2105fe2a1ab8499f5db07ea2d63be, type: 2}
+  - choice: "Si \u201Ca\u201D es de tipo string, y \u201Ca=\u201DA\u201D\u201D, el
+      resultado es \u201C2A\u201D"
+    result: {fileID: 11400000, guid: 79f32c41300a8f8498e712bd781c3ac7, type: 2}

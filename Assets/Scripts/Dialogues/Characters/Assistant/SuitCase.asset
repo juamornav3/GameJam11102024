@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fffe5872270abfc448321952a97595ad, type: 3}
+  m_Name: SuitCase
+  m_EditorClassIdentifier: 
+  characterName: OLIVIA
+  image: {fileID: -2142215949, guid: 6a9f633e6203c3440ab61a77ea85e545, type: 3}
+  image2: {fileID: -1223068654, guid: 9b5f607b01e215f409111e2ed151bae8, type: 3}
+  image3: {fileID: -1644425873, guid: 2b1d579069a7c5a4bbf75bfa3d670f20, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: 5Tutorial
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 85f60bf88bcaac54096d2c35379c0ba5, type: 2}
+    sound: {fileID: 8300000, guid: fc5df423faad8844fb7238b70964fc2a, type: 3}
+    dialogue: Bien, este es tu inventario, dentro <color=red>guardas objetos importantes</color>
+      como el regalo de antes.
+  - character: {fileID: 11400000, guid: 1b3335781413fad4b8d9a771bce91f66, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: Prueba a <color=red>pulsar sobre el objeto</color> para  inspeccionarlo...
+  - character: {fileID: 11400000, guid: 29fb4061d80bd004784dd4bc952e0f33, type: 2}
+    sound: {fileID: 8300000, guid: 4b77b610628db9c49b5383d386be00a7, type: 3}
+    dialogue: "Prueba tambi\xE9n a <color=red>pulsar sobre el icono de libreta</color>
+      para  ver tus objetivos..."
+  question: {fileID: 0}
