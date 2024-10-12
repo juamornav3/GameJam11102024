@@ -11,10 +11,10 @@ public class MainMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 movementDirection;
-    public float halfWidth;
-    public float halfHeight;
-    public Vector2 maxBounds;
-    public Vector2 minBounds;
+    private float halfWidth = 0.6f;
+    private float halfHeight =0.6f;
+    private Vector2 maxBounds;
+    private Vector2 minBounds;
 
 
     // Start is called before the first frame update
@@ -41,7 +41,13 @@ public class MainMovement : MonoBehaviour
         movementDirection.x = Input.GetAxis("Horizontal");
         movementDirection.y = Input.GetAxis("Vertical");
 
-        if (transform.position.y + halfHeight >= maxBounds.y)
+        if (movementDirection != Vector2.zero)
+        {
+            float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
+            rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
+        }
+
+        if (transform.position.y + halfHeight >= maxBounds.y - 0.1f)
         {
             LoadNextScene(); // Llamamos a la función que cambia la escena
         }
