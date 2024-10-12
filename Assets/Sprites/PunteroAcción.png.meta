@@ -239,7 +239,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "PunteroAcci\xF3n_0": 8157080391226854167
+      "PunteroAcci\xF3n_1": -3566400663967431145
+      "PunteroAcci\xF3n_2": -2067129576170338629
+      "PunteroAcci\xF3n_3": 1254076997432004204
+      "PunteroAcci\xF3n_4": -800450759342611130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

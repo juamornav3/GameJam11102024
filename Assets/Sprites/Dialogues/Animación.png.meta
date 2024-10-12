@@ -215,7 +215,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Animaci\xF3n_0": 4095355609016508402
+      "Animaci\xF3n_1": 7765432859866718907
+      "Animaci\xF3n_2": 6007518984477426125
+      "Animaci\xF3n_3": 1259750320205035234
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

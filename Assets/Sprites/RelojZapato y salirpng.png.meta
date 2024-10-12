@@ -239,7 +239,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RelojZapato y salirpng_0: 1061847929170564231
+      RelojZapato y salirpng_1: 1525987230194944658
+      RelojZapato y salirpng_2: -681145981482647574
+      RelojZapato y salirpng_3: 6073217539654612055
+      RelojZapato y salirpng_4: 342228410226740122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
