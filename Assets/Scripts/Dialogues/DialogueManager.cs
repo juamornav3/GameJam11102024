@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        dialUI = FindObjectOfType<DialogueUI>();
+        dialUI = FindFirstObjectByType<DialogueUI>();
       
         ShowUI(false);
 
