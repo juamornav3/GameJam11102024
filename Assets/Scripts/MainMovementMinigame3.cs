@@ -10,6 +10,7 @@ public class MainMovementMinigame2 : MonoBehaviour
     public float speed = 5f;
     public Camera mainCamera;
     public string nextSceneName;
+    public GameObject instructionPanel;
 
     private Rigidbody2D rb;
     private Vector2 movementDirection;
@@ -17,6 +18,7 @@ public class MainMovementMinigame2 : MonoBehaviour
     private float halfHeight =0.6f;
     private Vector2 maxBounds;
     private Vector2 minBounds;
+    
 
 
     // Start is called before the first frame update
@@ -35,6 +37,8 @@ public class MainMovementMinigame2 : MonoBehaviour
         BoxCollider2D boxCollider = GetComponent<BoxCollider2D>();
         halfWidth = boxCollider.bounds.extents.x;
         halfHeight = boxCollider.bounds.extents.y;
+
+        instructionPanel.gameObject.SetActive(true);
      }
 
     // Update is called once per frame
