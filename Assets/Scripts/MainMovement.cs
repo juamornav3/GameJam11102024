@@ -47,10 +47,6 @@ public class MainMovement : MonoBehaviour
             rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
         }
 
-        if (transform.position.y + halfHeight >= maxBounds.y - 0.1f)
-        {
-            LoadNextScene(); // Llamamos a la función que cambia la escena
-        }
     }
 
     void FixedUpdate()
@@ -77,5 +73,13 @@ public class MainMovement : MonoBehaviour
     void LoadNextScene()
     {
         Debug.Log("End of the level");
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            LoadNextScene();
+        }
     }
 }
