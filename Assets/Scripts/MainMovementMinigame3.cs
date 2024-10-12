@@ -18,6 +18,7 @@ public class MainMovementMinigame2 : MonoBehaviour
     private float halfHeight =0.6f;
     private Vector2 maxBounds;
     private Vector2 minBounds;
+    private bool canMove = false;
     
 
 
@@ -44,20 +45,28 @@ public class MainMovementMinigame2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementDirection.x = Input.GetAxis("Horizontal");
-        movementDirection.y = Input.GetAxis("Vertical");
-
-        if (movementDirection != Vector2.zero)
+        if(canMove)
         {
-            float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
-            rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
+            movementDirection.x = Input.GetAxis("Horizontal");
+            movementDirection.y = Input.GetAxis("Vertical");
+
+            if (movementDirection != Vector2.zero)
+            {
+                float angle = Mathf.Atan2(movementDirection.y, movementDirection.x) * Mathf.Rad2Deg;
+                rb.rotation = angle - 90f; // Ajuste para que el personaje esté perpendicular al vector de dirección
+            }
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                Interact(); 
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!canMove && Input.anyKeyDown)
         {
-            Interact(); 
+            instructionPanel.gameObject.SetActive(false);
+            canMove = true;
         }
-
     }
 
     private void Interact()
