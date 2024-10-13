@@ -76,10 +76,15 @@ public class MainMovementMinigame2 : MonoBehaviour
 
     private void Interact()
     {
-        if (hit.collider != null)
+        if (hit.collider.gameObject.GetComponent<TableClerk>() != null)
         {
             TableClerk tableClerk = hit.collider.gameObject.GetComponent<TableClerk>();
             Debug.Log("Interacting with the table" + tableClerk.numTable);
+            gameObject.GetComponent<DialogueSpeaker>().conversationIndex = tableClerk.numTable;
+            if (!gameObject.GetComponent<DialogueSpeaker>().conversations[tableClerk.numTable].finished) {
+                gameObject.GetComponent<DialogueSpeaker>().Conver();
+            }
+
         }
         
     }

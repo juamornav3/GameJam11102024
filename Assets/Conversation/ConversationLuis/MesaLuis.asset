@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: MesaLuis
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Hola Luis.\n\xBFQu\xE9 tal?"
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: Me dijeron que puedes ayudarme.
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: Claro, dime.
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Necesito convalidar mis cr\xE9ditos de la FP."
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Vaya... \nPara eso lamento decirte que tendr\xE1s que ir a ver a Juana,
+      la rectora."
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Dios m\xEDo, pero por qu\xE9 no me enviais directamente a quien debo
+      buscar."
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: "As\xED funciona la burocracia chico.\r"
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: Parece que eres nuevo en esto....
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Bueno, pues tendr\xE9 que hacerlo."
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: Hasta luego, gracias.
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: Eh eh espera, no te olvides de ir con cita.
+  - character: {fileID: 11400000, guid: 6763939070301484eb828f7373290651, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Toma aqu\xED tienes tu n\xFAmero."
+  question: {fileID: 0}
