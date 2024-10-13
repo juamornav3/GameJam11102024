@@ -13,6 +13,12 @@ public class LoveSimulatorManager : MonoBehaviour
     public Image loveLevel;
     public string trigger;
     public PlayerData playerData;
+    private SceneController sceneController;
+
+    private void Awake()
+    {
+        sceneController = FindAnyObjectByType<SceneController>();
+    }
     void Start()
     {
         loveLevel.fillAmount = 0;
@@ -59,12 +65,19 @@ public class LoveSimulatorManager : MonoBehaviour
                 gameObject.GetComponent<DialogueSpeaker>().conversationIndex = 1;
                 gameObject.GetComponent<DialogueSpeaker>().Conver();
             }
+
+            if (loveLevel.fillAmount >= 1 && playerData.cont <= 0)
+            {
+                playerData.cont = 1;
+            }
+
+            if (!sceneController.itsChanging && gameObject.GetComponent<DialogueSpeaker>().conversations[1].unlocked && gameObject.GetComponent<DialogueSpeaker>().conversations[1].finished)
+            {
+                sceneController.ChangeScene();
+            }
         }
         
-        if (loveLevel.fillAmount >= 1 && playerData.cont <=0)
-        {
-            playerData.cont = 1;
-        }
+       
         
 
 

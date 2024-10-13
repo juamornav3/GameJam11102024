@@ -1,6 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEditor.ShaderGraph.Internal;
+
 using TMPro;
 
 
@@ -19,9 +19,12 @@ public class MainMovement : MonoBehaviour
     private Vector2 minBounds;
     private bool canMove = false;
     private float cameraHalfHeight;
+    private SceneController sceneController;
 
-
-    // Start is called before the first frame update
+    private void Awake()
+    {
+        sceneController = FindAnyObjectByType<SceneController>();
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -119,7 +122,7 @@ public class MainMovement : MonoBehaviour
     // TODO: Implement LoadNextScene
     void LoadNextScene()
     {
-        Debug.Log("End of the level");
+        sceneController.ChangeScene();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
