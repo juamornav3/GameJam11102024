@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: LoroHablando
   m_EditorClassIdentifier: 
   characterName: Picocho
-  image: {fileID: 4217047528020313779, guid: 8dca09c1aab35fb4496818c69cc83dfc, type: 3}
+  image: {fileID: 1756505225948692640, guid: 5ae36a4eac2e80d4d80847818c7afdf4, type: 3}
   image2: {fileID: 2025721309266486205, guid: 8dca09c1aab35fb4496818c69cc83dfc, type: 3}
   image3: {fileID: 8897568444843718045, guid: 73631d43807954d438ad71ff29fa9998, type: 3}
