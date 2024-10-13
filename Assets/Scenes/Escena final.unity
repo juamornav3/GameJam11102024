@@ -1581,6 +1581,7 @@ MonoBehaviour:
   currentCommentary: "Un port\xE1til de marca iPear, debe costar un \"iRi\xF1\xF3n\""
   commentaryOffSet: {x: -1.5, y: 2.5, z: 0}
   commentaryAudio: {fileID: 8300000, guid: e0bb15e80eadd47418e1e711582a65f6, type: 3}
+
 --- !u!1 &1382210288
 GameObject:
   m_ObjectHideFlags: 0

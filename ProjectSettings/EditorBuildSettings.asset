@@ -8,4 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Hall.unity
+    guid: b81d4dd4c2fd36f4ea4bd839ca4cd4d0
+  - enabled: 1
+    path: Assets/Scenes/MinijuegoGente.unity
+    guid: a8450b77acb2a804cb8f0d3c3e45de63
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
