@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1019fc719daa51640accb02a46e2d0f5, type: 3}
+  m_Name: MesaCristiano
+  m_EditorClassIdentifier: 
+  unlocked: 1
+  finished: 0
+  reuse: 0
+  dialogues:
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: AY MI MADRE EL BICHOOOO.
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Ahora resulta que Cristiano Mostacho trabaja en secretar\xEDa."
+  - character: {fileID: 11400000, guid: eb058ed76b28db444958dd51844473f2, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Siuuuuuuuuuuuuuu\r"
+  - character: {fileID: 11400000, guid: 2eff152840b65ac41bc1cc64cbb69070, type: 2}
+    sound: {fileID: 0}
+    dialogue: "\xBFPero qu\xE9 haces aqu\xED? \nSi eres millonario."
+  - character: {fileID: 11400000, guid: eb058ed76b28db444958dd51844473f2, type: 2}
+    sound: {fileID: 0}
+    dialogue: "Lo perd\xED todo en el bitcoin."
+  question: {fileID: 0}

@@ -21,7 +21,7 @@ MonoBehaviour:
     dialogue: "\xBFQui\xE9n osa interrumpir mi pausa para el caf\xE9?"
   - character: {fileID: 11400000, guid: 3f31dc041d3719047b1368f16166352c, type: 2}
     sound: {fileID: 0}
-    dialogue: "\xA1Groaaak! Pero si llevas todo el dia sin hacer nada"
+    dialogue: "\xA1Groaaak! Pero si llevas todo el d\xEDa sin hacer nada"
   - character: {fileID: 11400000, guid: 3f31dc041d3719047b1368f16166352c, type: 2}
     sound: {fileID: 0}
     dialogue: "Como todos los d\xEDas..."
@@ -30,7 +30,7 @@ MonoBehaviour:
     dialogue: Hola, imagino que eres Juana.
   - character: {fileID: 11400000, guid: e58265b01c95e3244b6a08d21cf2588d, type: 2}
     sound: {fileID: 0}
-    dialogue: "Ven\xEDa a convalidar mis cr\xE9ditos de la Universidad."
+    dialogue: "Ven\xEDa a convalidar mis cr\xE9ditos de la FP."
   - character: {fileID: 11400000, guid: 53b8fa81290079a41b68fa76c4c83f8d, type: 2}
     sound: {fileID: 0}
     dialogue: Has llegado al lugar correcto chico.
@@ -41,16 +41,19 @@ MonoBehaviour:
     sound: {fileID: 0}
     dialogue: ...
   - character: {fileID: 11400000, guid: 89ac08a81f47e9144b989ff065ec8027, type: 2}
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: d6881d2187eb29a4593c1c97ca525972, type: 3}
     dialogue: ...
   - character: {fileID: 11400000, guid: 89ac08a81f47e9144b989ff065ec8027, type: 2}
+    sound: {fileID: 8300000, guid: e58a553f7bcf6514fa6657681e1d7140, type: 3}
+    dialogue: ...
+  - character: {fileID: 11400000, guid: 895ad2e59ffae704db78da841097306a, type: 2}
     sound: {fileID: 0}
     dialogue: "Vaya chico... \nParece que ya es la hora de irse a casa y dejar de
       trabajar."
   - character: {fileID: 11400000, guid: 3f31dc041d3719047b1368f16166352c, type: 2}
     sound: {fileID: 0}
     dialogue: "\xA1Groaaaak!  \xBFA eso le llamas trabajar?"
-  - character: {fileID: 11400000, guid: 3f31dc041d3719047b1368f16166352c, type: 2}
+  - character: {fileID: 11400000, guid: de7cfddebe6929c4698477ce37d603b7, type: 2}
     sound: {fileID: 0}
     dialogue: "Tendr\xE1s que volver el pr\xF3ximo d\xEDa."
   question: {fileID: 0}

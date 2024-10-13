@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fffe5872270abfc448321952a97595ad, type: 3}
-  m_Name: ProtaTristeJuanaHablando
+  m_Name: Luis
   m_EditorClassIdentifier: 
-  characterName: Juana
-  image: {fileID: 1259750320205035234, guid: 53ee144731108464c83dc8685f1b7f39, type: 3}
-  image2: {fileID: -8532659662452907947, guid: 8dca09c1aab35fb4496818c69cc83dfc, type: 3}
+  characterName: Luis
+  image: {fileID: 8897568444843718045, guid: 73631d43807954d438ad71ff29fa9998, type: 3}
+  image2: {fileID: 8897568444843718045, guid: 73631d43807954d438ad71ff29fa9998, type: 3}
   image3: {fileID: 8897568444843718045, guid: 73631d43807954d438ad71ff29fa9998, type: 3}
