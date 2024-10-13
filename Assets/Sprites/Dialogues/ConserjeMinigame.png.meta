@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 5ae36a4eac2e80d4d80847818c7afdf4
+guid: 2af909d0332c1f341ab1186b91e4c628
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1756505225948692640
-    second: Directora(1)_0
+      213: -4580367998331805156
+    second: ConserjeMinigame_0
+  - first:
+      213: -34658635080500324
+    second: ConserjeMinigame_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Directora(1)_0
+      name: ConserjeMinigame_0
       rect:
         serializedVersion: 2
-        x: 83
-        y: 0
-        width: 410
-        height: 850
+        x: 705
+        y: 941
+        width: 2567
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,8 +130,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a00ac6523c506810800000000000000
-      internalID: 1756505225948692640
+      spriteID: c12add6c2934f60c0800000000000000
+      internalID: -4580367998331805156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ConserjeMinigame_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 177
+        width: 3611
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b70afa72ed48ff0800000000000000
+      internalID: -34658635080500324
       vertices: []
       indices: 
       edges: []
@@ -144,7 +168,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Directora(1)_0: 1756505225948692640
+      ConserjeMinigame_0: -4580367998331805156
+      ConserjeMinigame_1: -34658635080500324
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
