@@ -18,6 +18,7 @@ public class MainMovement : MonoBehaviour
     private Vector2 maxBounds;
     private Vector2 minBounds;
     private bool canMove = false;
+    private float cameraHalfHeight;
 
 
     // Start is called before the first frame update
@@ -38,6 +39,8 @@ public class MainMovement : MonoBehaviour
         halfHeight = boxCollider.bounds.extents.y;
 
         instructionPanel.gameObject.SetActive(true);
+
+        cameraHalfHeight = mainCamera.orthographicSize;
 
      }
 
@@ -74,6 +77,34 @@ public class MainMovement : MonoBehaviour
         rb.MovePosition(newPosition);
     }
 
+    void LateUpdate()
+    {
+        // Actualizar la posición de la cámara para que siga al protagonista en el eje Y
+        if (mainCamera != null)
+        {
+            Vector3 cameraPosition = mainCamera.transform.position;
+
+            if (transform.position.y >= 11f)
+            {
+                // Mantener la cámara en el cuadrado definido por (-9, 6, 0) y (9, 16, 0)
+                
+                cameraPosition.y = 11f;
+            }
+            else if (transform.position.y >= 0f)
+            {
+                // Seguir al protagonista suavemente
+                cameraPosition.y = transform.position.y;
+            }
+            else
+            {
+                // Mantener la cámara en la posición inicial
+                cameraPosition.y = 0f;
+            }
+
+            mainCamera.transform.position = cameraPosition;
+        }
+    }
+
     public Vector2 GetMovementDirection() 
     {
         return movementDirection;
@@ -81,8 +112,8 @@ public class MainMovement : MonoBehaviour
 
     void CalculateCameraBounds()
     {
-        minBounds = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)); // Esquina inferior izquierda
-        maxBounds = mainCamera.ViewportToWorldPoint(new Vector3(1, 1, 0)); // Esquina superior derecha
+        minBounds = new Vector3(-9,-5,0); // Esquina inferior izquierda
+        maxBounds = new Vector3(9,16,0); // Esquina superior derecha
     }
 
     // TODO: Implement LoadNextScene
