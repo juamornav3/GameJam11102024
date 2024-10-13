@@ -1,7 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
-using UnityEditor.ShaderGraph.Internal;
-using UnityEditor;
+
 using System;
 using UnityEngine.UIElements;
 
@@ -22,7 +21,12 @@ public class MainMovementMinigame2 : MonoBehaviour
     private bool canMove = false;
     private bool isColliderInFront = false;
     private RaycastHit2D hit;
-    
+    private SceneController sceneController;
+
+    private void Awake()
+    {
+        sceneController = FindAnyObjectByType<SceneController>();
+    }
 
 
     // Start is called before the first frame update
@@ -112,7 +116,7 @@ public class MainMovementMinigame2 : MonoBehaviour
     // TODO: Implement LoadNextScene
     void LoadNextScene()
     {
-        Debug.Log("End of the level");
+        sceneController.ChangeScene();
     }
 
     void OnCollisionEnter2D(Collision2D collision)
